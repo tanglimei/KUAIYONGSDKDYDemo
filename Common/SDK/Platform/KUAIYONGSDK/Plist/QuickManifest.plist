@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>plat</key>
+	<string>17</string>
+	<key>gameid</key>
+	<string>101952</string>
+	<key>gamekey</key>
+	<string>f756868efa1111415a5374ec1412543e</string>
+	<key>appid</key>
+	<string>101952</string>
+	<key>appkey</key>
+	<string>f756868efa1111415a5374ec1412543e</string>
+	<key>urlscheme</key>
+	<string>com.juedifanji.ky</string>
+	<key>islandscape</key>
+	<true/>
+	<key>isclosepay</key>
+	<false/>
+	<key>isdebug</key>
+	<false/>
+	<key>islog</key>
+	<true/>
+	<key>isreport</key>
+	<false/>
+</dict>
+</plist>

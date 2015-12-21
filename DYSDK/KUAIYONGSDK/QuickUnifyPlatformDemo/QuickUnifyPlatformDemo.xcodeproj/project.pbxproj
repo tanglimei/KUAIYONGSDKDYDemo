@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		661AC38C1BE0A12400DCBFAA /* QUPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 661AC2B31BE0A12300DCBFAA /* QUPAppDelegate.m */; };
+		661AC38D1BE0A12400DCBFAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661AC2B41BE0A12300DCBFAA /* Images.xcassets */; };
+		661AC38E1BE0A12400DCBFAA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661AC2B51BE0A12300DCBFAA /* LaunchScreen.xib */; };
+		661AC38F1BE0A12400DCBFAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 661AC2B61BE0A12300DCBFAA /* main.m */; };
+		661AC3901BE0A12400DCBFAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661AC2B71BE0A12300DCBFAA /* Main.storyboard */; };
+		661AC3911BE0A12400DCBFAA /* QUPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661AC2B91BE0A12300DCBFAA /* QUPViewController.m */; };
+		6666EF4B1BE739050026B3F6 /* QuickManifest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6666EF441BE739050026B3F6 /* QuickManifest.plist */; };
+		6666EF4C1BE739050026B3F6 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6666EF471BE739050026B3F6 /* AlipaySDK.bundle */; };
+		6666EF4E1BE739050026B3F6 /* XSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6666EF491BE739050026B3F6 /* XSDKResource.bundle */; };
+		6666EF511BE739270026B3F6 /* QuickUnifyPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6666EF4F1BE739160026B3F6 /* QuickUnifyPlatform.framework */; };
+		6666EF521BE739270026B3F6 /* QuickUnifyPlatform.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6666EF4F1BE739160026B3F6 /* QuickUnifyPlatform.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6666EF531BE739280026B3F6 /* xsdkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6666EF481BE739050026B3F6 /* xsdkFramework.framework */; };
+		6666EF541BE739280026B3F6 /* xsdkFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6666EF481BE739050026B3F6 /* xsdkFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		661AC3A51BE0A2E800DCBFAA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6666EF521BE739270026B3F6 /* QuickUnifyPlatform.framework in Embed Frameworks */,
+				6666EF541BE739280026B3F6 /* xsdkFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		661AC06A1BE0A10900DCBFAA /* QuickUnifyPlatformDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickUnifyPlatformDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		661AC07E1BE0A10900DCBFAA /* QUPInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = QUPInfo.plist; sourceTree = "<group>"; };
+		661AC2B21BE0A12300DCBFAA /* QUPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUPAppDelegate.h; sourceTree = "<group>"; };
+		661AC2B31BE0A12300DCBFAA /* QUPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUPAppDelegate.m; sourceTree = "<group>"; };
+		661AC2B41BE0A12300DCBFAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		661AC2B51BE0A12300DCBFAA /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		661AC2B61BE0A12300DCBFAA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		661AC2B71BE0A12300DCBFAA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		661AC2B81BE0A12300DCBFAA /* QUPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUPViewController.h; sourceTree = "<group>"; };
+		661AC2B91BE0A12300DCBFAA /* QUPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUPViewController.m; sourceTree = "<group>"; };
+		6666EF441BE739050026B3F6 /* QuickManifest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QuickManifest.plist; sourceTree = "<group>"; };
+		6666EF471BE739050026B3F6 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		6666EF481BE739050026B3F6 /* xsdkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = xsdkFramework.framework; sourceTree = "<group>"; };
+		6666EF491BE739050026B3F6 /* XSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XSDKResource.bundle; sourceTree = "<group>"; };
+		6666EF4F1BE739160026B3F6 /* QuickUnifyPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuickUnifyPlatform.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		661AC0671BE0A10900DCBFAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6666EF511BE739270026B3F6 /* QuickUnifyPlatform.framework in Frameworks */,
+				6666EF531BE739280026B3F6 /* xsdkFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		628443A31BFB2F49001A079F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		661AC0611BE0A10900DCBFAA = {
+			isa = PBXGroup;
+			children = (
+				661AC06C1BE0A10900DCBFAA /* QuickUnifyPlatformDemo */,
+				661AC06B1BE0A10900DCBFAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		661AC06B1BE0A10900DCBFAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				661AC06A1BE0A10900DCBFAA /* QuickUnifyPlatformDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		661AC06C1BE0A10900DCBFAA /* QuickUnifyPlatformDemo */ = {
+			isa = PBXGroup;
+			children = (
+				661AC0841BE0A12200DCBFAA /* Common */,
+				661AC07E1BE0A10900DCBFAA /* QUPInfo.plist */,
+				661AC06D1BE0A10900DCBFAA /* Supporting Files */,
+			);
+			path = QuickUnifyPlatformDemo;
+			sourceTree = "<group>";
+		};
+		661AC06D1BE0A10900DCBFAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		661AC0841BE0A12200DCBFAA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				661AC0851BE0A12200DCBFAA /* SDK */,
+				661AC2B01BE0A12300DCBFAA /* Source */,
+			);
+			name = Common;
+			path = ../../../../Common;
+			sourceTree = "<group>";
+		};
+		661AC0851BE0A12200DCBFAA /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				661AC0861BE0A12200DCBFAA /* Framework */,
+				661AC0871BE0A12200DCBFAA /* Platform */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		661AC0861BE0A12200DCBFAA /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		661AC0871BE0A12200DCBFAA /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				6666EF411BE739050026B3F6 /* KUAIYONGSDK */,
+			);
+			path = Platform;
+			sourceTree = "<group>";
+		};
+		661AC2B01BE0A12300DCBFAA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				661AC2B11BE0A12300DCBFAA /* Demo */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		661AC2B11BE0A12300DCBFAA /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				661AC2B21BE0A12300DCBFAA /* QUPAppDelegate.h */,
+				661AC2B31BE0A12300DCBFAA /* QUPAppDelegate.m */,
+				661AC2B41BE0A12300DCBFAA /* Images.xcassets */,
+				661AC2B51BE0A12300DCBFAA /* LaunchScreen.xib */,
+				661AC2B61BE0A12300DCBFAA /* main.m */,
+				661AC2B71BE0A12300DCBFAA /* Main.storyboard */,
+				661AC2B81BE0A12300DCBFAA /* QUPViewController.h */,
+				661AC2B91BE0A12300DCBFAA /* QUPViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		6666EF411BE739050026B3F6 /* KUAIYONGSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6666EF421BE739050026B3F6 /* DYFramework */,
+				6666EF431BE739050026B3F6 /* Plist */,
+				6666EF451BE739050026B3F6 /* SDKSource */,
+			);
+			path = KUAIYONGSDK;
+			sourceTree = "<group>";
+		};
+		6666EF421BE739050026B3F6 /* DYFramework */ = {
+			isa = PBXGroup;
+			children = (
+				6666EF4F1BE739160026B3F6 /* QuickUnifyPlatform.framework */,
+			);
+			path = DYFramework;
+			sourceTree = "<group>";
+		};
+		6666EF431BE739050026B3F6 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				6666EF441BE739050026B3F6 /* QuickManifest.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		6666EF451BE739050026B3F6 /* SDKSource */ = {
+			isa = PBXGroup;
+			children = (
+				628443A31BFB2F49001A079F /* Resource */,
+				6666EF461BE739050026B3F6 /* SDKFinal */,
+			);
+			path = SDKSource;
+			sourceTree = "<group>";
+		};
+		6666EF461BE739050026B3F6 /* SDKFinal */ = {
+			isa = PBXGroup;
+			children = (
+				6666EF471BE739050026B3F6 /* AlipaySDK.bundle */,
+				6666EF481BE739050026B3F6 /* xsdkFramework.framework */,
+				6666EF491BE739050026B3F6 /* XSDKResource.bundle */,
+			);
+			path = SDKFinal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		661AC0691BE0A10900DCBFAA /* QuickUnifyPlatformDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661AC0811BE0A10900DCBFAA /* Build configuration list for PBXNativeTarget "QuickUnifyPlatformDemo" */;
+			buildPhases = (
+				661AC0661BE0A10900DCBFAA /* Sources */,
+				661AC0671BE0A10900DCBFAA /* Frameworks */,
+				661AC0681BE0A10900DCBFAA /* Resources */,
+				661AC3A51BE0A2E800DCBFAA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickUnifyPlatformDemo;
+			productName = QuickUnifyPlatformDemo;
+			productReference = 661AC06A1BE0A10900DCBFAA /* QuickUnifyPlatformDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		661AC0621BE0A10900DCBFAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = QuickCompany;
+				TargetAttributes = {
+					661AC0691BE0A10900DCBFAA = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 289853W2FE;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 661AC0651BE0A10900DCBFAA /* Build configuration list for PBXProject "QuickUnifyPlatformDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 661AC0611BE0A10900DCBFAA;
+			productRefGroup = 661AC06B1BE0A10900DCBFAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				661AC0691BE0A10900DCBFAA /* QuickUnifyPlatformDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		661AC0681BE0A10900DCBFAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6666EF4C1BE739050026B3F6 /* AlipaySDK.bundle in Resources */,
+				6666EF4E1BE739050026B3F6 /* XSDKResource.bundle in Resources */,
+				661AC38D1BE0A12400DCBFAA /* Images.xcassets in Resources */,
+				6666EF4B1BE739050026B3F6 /* QuickManifest.plist in Resources */,
+				661AC3901BE0A12400DCBFAA /* Main.storyboard in Resources */,
+				661AC38E1BE0A12400DCBFAA /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		661AC0661BE0A10900DCBFAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661AC38C1BE0A12400DCBFAA /* QUPAppDelegate.m in Sources */,
+				661AC38F1BE0A12400DCBFAA /* main.m in Sources */,
+				661AC3911BE0A12400DCBFAA /* QUPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		661AC07F1BE0A10900DCBFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		661AC0801BE0A10900DCBFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		661AC0821BE0A10900DCBFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: junfeng lu (LYHH2EXUZ3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: junfeng lu (LYHH2EXUZ3)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Common/SDK/Platform/KUAIYONGSDK/DYFramework",
+					"$(SRCROOT)/../../../Common/SDK/Platform/KUAIYONGSDK/SDKSource/SDKFinal",
+				);
+				INFOPLIST_FILE = QuickUnifyPlatformDemo/QUPInfo.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juedifanji.ky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c86b3434-50fb-4c5a-877a-b29a60f6f875";
+			};
+			name = Debug;
+		};
+		661AC0831BE0A10900DCBFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: junfeng lu (LYHH2EXUZ3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: junfeng lu (LYHH2EXUZ3)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Common/SDK/Platform/KUAIYONGSDK/DYFramework",
+					"$(SRCROOT)/../../../Common/SDK/Platform/KUAIYONGSDK/SDKSource/SDKFinal",
+				);
+				INFOPLIST_FILE = QuickUnifyPlatformDemo/QUPInfo.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juedifanji.ky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c86b3434-50fb-4c5a-877a-b29a60f6f875";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		661AC0651BE0A10900DCBFAA /* Build configuration list for PBXProject "QuickUnifyPlatformDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661AC07F1BE0A10900DCBFAA /* Debug */,
+				661AC0801BE0A10900DCBFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661AC0811BE0A10900DCBFAA /* Build configuration list for PBXNativeTarget "QuickUnifyPlatformDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661AC0821BE0A10900DCBFAA /* Debug */,
+				661AC0831BE0A10900DCBFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 661AC0621BE0A10900DCBFAA /* Project object */;
+}

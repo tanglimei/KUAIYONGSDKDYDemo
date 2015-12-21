@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5cc56d8f-1627-4e91-ad95-ee1986b3e3aa++4647",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "5cc56d8f-1627-4e91-ad95-ee1986b3e3aa++4647" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5cc56d8f-1627-4e91-ad95-ee1986b3e3aa++4647" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CD0C2388-35E9-4730-9350-4669132876C6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5cc56d8f-1627-4e91-ad95-ee1986b3e3aa++4647" : "Quick\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "QuickUnifyPlatformDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "QuickSDK\/DYSDK\/KUAIYONGSDK\/QuickUnifyPlatformDemo\/QuickUnifyPlatformDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.100.58\/project",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5cc56d8f-1627-4e91-ad95-ee1986b3e3aa++4647"
+    }
+  ]
+}

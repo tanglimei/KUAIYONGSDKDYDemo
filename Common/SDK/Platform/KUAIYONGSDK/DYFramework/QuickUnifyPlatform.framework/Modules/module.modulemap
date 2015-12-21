@@ -1,0 +1,6 @@
+framework module QuickUnifyPlatform {
+  umbrella header "QuickUnifyPlatform.h"
+
+  export *
+  module * { export * }
+}
