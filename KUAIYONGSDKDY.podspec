@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/tanglimei/KUAIYONGSDKDYDemo.git", :tag => "0.0.4" }
-  s.source_files  = "Common/SDK/Platform/KUAIYONGSDK/DYFramework/QuickUnifyPlatform.framework/Headers/*.h"
+  s.source_files  = "Common/Source/Demo/QUPAppDelegate.{h,m}","Common/Source/Demo/QUPViewController.{h,m}","Common/SDK/Platform/KUAIYONGSDK/DYFramework/QuickUnifyPlatform.framework/Headers/*.h"
   s.public_header_files = "Common/SDK/Platform/KUAIYONGSDK/DYFramework/QuickUnifyPlatform.framework/Headers/*.h"
   s.resources = ["Common/SDK/Platform/KUAIYONGSDK/SDKSource/SDKFinal/*.bundle","Common/SDK/Platform/KUAIYONGSDK/Plist/*.plist","DYSDK/KUAIYONGSDK/QuickUnifyPlatformDemo/QuickUnifyPlatformDemo/QUPInfo.plist"]
   s.ios.vendored_frameworks = "Common/SDK/Platform/KUAIYONGSDK/DYFramework/QuickUnifyPlatform.framework","Common/SDK/Platform/KUAIYONGSDK/SDKSource/SDKFinal/*.framework"
