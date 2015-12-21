@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "KUAIYONGSDKDY"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "Demo for Quiuk uniform Platform"
   s.description  = <<-DESC
                   You can download this one for test when you are developping on KUAIYONGSDK.
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author             = { "tanglimei" => "562630424@qq.com" }
   s.license      = "MIT"
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/tanglimei/KUAIYONGSDKDYDemo.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/tanglimei/KUAIYONGSDKDYDemo.git", :tag => "0.0.4" }
   s.source_files  = "Common/SDK/Platform/KUAIYONGSDK/DYFramework/QuickUnifyPlatform.framework/Headers/*.h"
   s.public_header_files = "Common/SDK/Platform/KUAIYONGSDK/DYFramework/QuickUnifyPlatform.framework/Headers/*.h"
   s.resources = ["Common/SDK/Platform/KUAIYONGSDK/SDKSource/SDKFinal/*.bundle","Common/SDK/Platform/KUAIYONGSDK/Plist/*.plist","DYSDK/KUAIYONGSDK/QuickUnifyPlatformDemo/QuickUnifyPlatformDemo/QUPInfo.plist"]
